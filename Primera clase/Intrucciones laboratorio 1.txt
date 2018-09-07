@@ -1,0 +1,17 @@
+buscar plantilla de bootstrap para aplicacion free
+crear:
+	Formulario
+		textbox
+			normal
+			DropDorwn
+			datepicker
+			password
+			email(con validación de correo)
+	tabla con 5 columnas y 5 filas
+	imagen
+	parrafo
+	3 botones diferentes
+	iframe con video de youtube
+
+###fecha limite: antes de la siguiente sesión
+### subir a la plataforma

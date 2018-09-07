@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Laboratorio 1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles.css" rel="stylesheet" type="text/css">
+
+        <script>
+            function funcion() {
+                var miVariable = "Gracias por llenar la encuesta";
+                document.getElementById("label-results").innerHTML = miVariable;
+                document.getElementById("section-results").setAttribute("style", "display: block;");
+            }
+        </script>      
+    </head>
+    <body>
+        <article>
+            <section>
+                <h2>Captura de Datos</h2>
+                <form action="/action_page.html">
+                    <img src="imagenes/datos.jpg" alt="datos" width="450" height="100" style=" width:150px">
+                    <br>
+                    <label>Nombre:</label>
+                    <input type="text" id="txt-name" />
+                    <br/>
+
+                    <br> 
+                    <label>Apellidos:</label>
+                    <input type="text" id="first-lastname" />
+                    <br/>
+
+                    <br>
+                    <label>Fecha de nacimiento:</label>
+                    <input type="date">
+                    <br/>
+
+                    <br>
+                    <label>Correo electrónico:</label>
+                    <input type="email">
+                    <br/>
+
+                    <br>                    
+                    <label>password:</label>
+                    <input type="password" />
+                    <br/>
+
+                    <br>
+                    <label>Carrera que cursas:</label><br><br>
+                    <input type="radio" name="gender" id="Opction1">LA<br>
+                    <input type="radio" name="gender" id="Opction2">LCC<br>
+                    <input type="radio" name="gender" id="Opction3">LSTI<br>
+                    <input type="radio" name="gender" id="Opction4">LMAD<br>
+                    <br/>
+
+                    <br><input type="button" value="Enviar aquí pero en rojo" id="red" onclick="funcion()" /><br/>
+                    <br><input type="button" value="Enviar aquí pero en verde" id="green" onclick="funcion()" /><br/>
+                    <br><input type="button" value="Enviar aquí pero en azul" id="blue" onclick="funcion()" /><br/>
+
+                    <br>
+                    <h2>Les comparto un video de una excelente banda de rock alternativo</h2>
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/8sgycukafqQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen> 
+                    </iframe>
+                    <br/>
+
+                    <br>
+                    <h2>Esta es una tabla que hice 5x5</h2>
+                    <a href="tabla.html">-------->Tabla de Colores<--------</a>
+                    <br/>
+
+                    <br>
+                    <h3>¿Qué te parecio mi página web?</h3>
+                    <select multiple size="4">
+                        <option value="pesima">No era lo que pedia</option>
+                        <option value="mal">Lo hubieras hecho mejor</option>
+                        <option value="normal">normal (ni bien, ni mal)</option>
+                        <option value="muy buena">Wow, te rifaste compa: +100</option>                        
+                    </select>
+                    <br/>
+
+            </section>
+            <section id="section-results">    
+                <br><br><h1>Resultados</h1>
+                <label id="label-results"></label><br/><br/>
+            </section>
+
+        </article>
+
+        <!--<section><br>
+            <footer>
+                <label>Creador: Uziel Yo</label>
+            </footer>
+        </section>-->
+    </body>
+</html>
