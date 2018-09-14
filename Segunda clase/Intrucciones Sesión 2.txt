@@ -1,0 +1,35 @@
+PUERTOS	total de 65,000 puertos
+	21 = FTP
+	22 =SSH
+	23 =TELNET
+	53 = DNS
+	80 = HTPP
+	443 = HTTPS
+	....
+podemos tener los servidores que querramos pero SOLO uno activo en el puerto 80
+
+Tutorial: www.tutorialspoint.com
+
+*********TAREA*******
+Investigar metodo Get y Post
+
+
+info de ayuda:
+	https://docs.oracle.com/javaee/6/api/javax/servlet/http/HttpServletRequest.html
+	https://www.tutorialspoint.com/servlets/servlets-first-example.htm
+
+posible linea de codigo de ayuda:
+//out.println("<h1>IP:" + request.getRemoteaddr() + " at " "</h1>");
+
+
+Prox clase: java server
+
+
+
+----------------------TAREA RESUELTA---------------------------------
+
+La diferencia entre los métodos get y post radica en la forma de
+ enviar los datos a la página cuando se pulsa el botón “Enviar”. 
+Mientras que el método GET envía los datos usando la URL, 
+el método POST los envía de forma que no podemos verlos 
+(en un segundo plano u "ocultos" al usuario).
