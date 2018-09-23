@@ -1,0 +1,26 @@
+-------------------Explicación de la Clase:--------------------------
+
+https= una de sus funciones es encriptar la url y no deja viseble la información.
+
+JSON= "JavaScript Object Nomenclature".
+su estructura es "no relacional".
+
+El JSON se parece mucho al XML, y muy poco al YML.
+
+
+
+------------------------PRÁCTICA 3----------------------------
+
+"doPost" es el método que se ejecuta cuando le piden capturar información.
+ Práctica hacer un formularion en el servlet con doPost.
+
+ El formulario debe tener lo siguiente:
+	nombre
+	primer apellido
+	segundo apellido
+	fecha de nacimiento
+	correo electrónico
+	contraseña
+
+BOTON "FORM"
+	<form	method= 'post'	action='NewServlet'>
