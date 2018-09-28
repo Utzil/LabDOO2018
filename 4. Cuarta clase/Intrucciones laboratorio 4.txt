@@ -1,0 +1,14 @@
+JSP
+
+Práctica de hoy: 
+	Hacer un formulario en JSP
+
+El formulario debe tener lo siguiente:
+	nombre
+	primer apellido
+	segundo apellido
+	fecha de nacimiento
+	correo electrónico
+	contraseña
+
+*mismo formulario que la práctica pasada.
