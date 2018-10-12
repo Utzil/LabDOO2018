@@ -1,0 +1,25 @@
+PRACTICA 5 
+"Patrones de diseño"
+link de ayuda: 
+	https://www.tutorialspoint.com/spring/spring_mvc_form_handling_example.htm
+
+-----Modelo MVC-----
+se compone de: 
+	Vista
+	Controlador
+	Modelo
+
+-Vista- Organiza como se ve, por lo regular son archivos jsp
+
+-Controlador- Se encarga de enviar la información, 
+son servlets, sprits
+
+-Modelo- basicamente es la clase, se pueden incluir 
+funciones que se esten usando
+
+PRÁCTICA
+crear un MVC sencillo 
+
+	-validación de Usuario-
+	Usuario: Uziel
+	Pasword: "123"
