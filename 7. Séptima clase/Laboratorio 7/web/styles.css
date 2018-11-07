@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6/11/2018, 11:53:48 PM
+    Author     : uziel
+*/
+#formulario {
+    position: absolute;  
+    padding: 20px 0px 40px 30px;   /* margen con valores: arriba - derecha - abajo - izquierda */ 
+    width: 500px;
+    left: 50%;
+    margin-left: -250px;  
+    font-family:verdana,arial; 
+    font-size:9pt; 
+} 
+label{
+    font-family:verdana,arial;
+    font-size:12pt;      
+}
+p,a{
+    font-family:verdana,arial;
+    font-size:12pt;      
+}
+
+.campos { 
+    font-family:verdana,arial;     /* tipo de letra */ 
+    width: 350px;                 /* anchura de campos de formulario */ 
+    font-size:12pt;                /* tamaño de la letra*/  
+    color: black;                 /* color del texto */  
+    border:1px solid black;           
+    border-radius: 15px;     
+} 
+.boton{
+    font-size:14px;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:#0000FF;
+    background:#A4C1FF;
+    border:0px;
+    width:160px;
+    height:40px;    
+    border-radius: 15px; 
+}
+h2{
+    background: blueviolet;
+    width: 350px;      
+    border-radius: 15px; 
+}
+h1{
+    background: gray;
+    width: 350px;  
+    font-size:20pt;   
+    font-weight:bold;
+    border-radius: 15px; 
+}

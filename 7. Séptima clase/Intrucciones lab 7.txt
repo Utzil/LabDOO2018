@@ -1,0 +1,44 @@
+
+Link de ayuda: 
+	https://www.tutorialspoint.com/servlets/servlets-cookies-handling.htm	
+
+
+COOKIES					|	SESSION
+	Almacenamiento			|
+	en el lado			| Almacenamiento 
+	del cliente(HD)			|en el lado del servidor
+					|(RAM)
+EXIRACIÓN:				|EXPIRACIÓN:
+1,2 dias---- 30,60 días			|	15-30(MIN)------- 1,2 días
+					|
+					|es un objeto que ofrece 
+					|el sevidor web
+	*Es parte de http		|
+					|información para el lado del usuario
+	*¿Tiene el usuario		|
+	 permiso para ver?		|No tiene permiso el usuario
+					|
+					|	Algún metódo de persistencia
+					|		-file
+					|		-BD
+					|		-Web
+					|		-BLOCKCHAIN
+
+
+
+
+		----------------PRÁCTICA 7----------------
+				Utilizar una cookie
+				para registrar el logging
+				del usuario de la práctica
+				anterior
+
+
+
+****Fecha de expiración (1 día) de cookie:***
+	cookie.setMaxAge(60 * 60 * 24); 
+
+
+
+
+
