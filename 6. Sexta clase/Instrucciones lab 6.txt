@@ -1,0 +1,12 @@
+PRÁCTICA 6 
+Crear un formulario con el objeto "HttpSession"
+
+
+"Sesiones"
+Link de ayuda:
+	https://www.tutorialspoint.com/servlets/servlets-session-tracking.htm
+
+tenemos varias formas de guardar información en una App web
+usaremos el objeto sesion.
+
+
