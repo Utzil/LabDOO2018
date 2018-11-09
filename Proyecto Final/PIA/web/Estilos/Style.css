@@ -1,0 +1,246 @@
+﻿.H1_titulo{
+    color:#FFF;
+    text-align:center;
+    border-radius:40px;
+    background-color: rgb(43, 43, 43);
+}
+.H1_Titulo{
+    color:#FFF;
+    text-align:center;
+}
+.tituloTienda{
+    font-size:36pt; 
+    color:#fff;
+    font-family: "Cambria";
+}
+h1{
+    color:#fff;
+    font-family: "Cambria";
+}
+.DIV_contenedorArticulos
+{
+    float:none;
+    width:100%;
+    padding-top:20px;
+}
+.DIV_tiraArticulos
+{
+    width:100%;
+    float:none;
+    margin: 20px auto;
+}
+.DIV_main
+{
+    width:72%;
+    margin:auto;
+}
+.DIV_articulo
+{
+    float:left;
+    width:25%;
+    border:none;
+    border-radius:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+span{
+    color:#000;
+    font-size:14px;
+    text-align:center;
+    font-family: "Cambria";
+}
+.DIV_articulo img
+{
+    width: 75%;
+    height:175px;
+    padding:10%;
+    opacity:.8;
+}
+.DIV_articulo img:hover
+{
+    opacity:1;
+}
+.DIV_articulo h2
+{
+    color:#FFF;
+    font-size:18px;
+    width:100%;
+}
+body
+{
+    margin:0;
+    font-size:18px;
+    background-attachment:fixed;
+    background-position:center;
+    background-color:#F0FFF8;
+
+}
+#menu{
+    width:100%;
+    background-size:100%;
+    overflow:hidden;
+}
+#menu a{
+    text-decoration:none;
+}
+#menu ul{
+    padding:0;
+    list-style:none;
+}
+#hmenu > li{
+    display:inline-block;
+}
+#hmenu > li > a{
+    display:block;
+    padding:30px 40px;
+    width:100%;
+}
+li ul{
+    position:absolute;
+    display:none;
+}
+.submenu a{
+    display:block;
+    padding:10px 25px ;
+    width:100px;
+    text-align:center;
+    background-color: #555;
+}
+
+li:hover ul{
+    display:block;
+}
+
+#hmenu{
+    width:100%;
+    margin:0 auto;
+    background-color: #555;
+    opacity:.9;
+}
+#hmenu a{
+    color:#FFF;
+    text-decoration:blink;
+    font-weight:bold;
+    font-family: "Cambria";
+}
+#hmenu a:hover{
+    color:#fff;
+    font-family: "Cambria";
+}
+#hmenu li:hover
+{
+    background:#555;
+}
+#hmenu img{
+    width:15%;
+}
+.contacto{
+    float:left;
+    text-align:center;
+    width:100%;
+    color:#FFF;
+    text-decoration:none;
+    background-color: #555;
+    border:none;
+    padding:5px;
+}
+.contacto label{
+    padding-rigth:20px;
+}
+.articulo img
+{
+    width: 25%;
+    height: 25%;
+    float:left;
+    text-align:center;
+}
+.articulo
+{
+    text-align:right;
+    color:#FFF;
+}
+.logo_contacto
+{
+    width:500px;
+}
+.detalles{
+    color:#000000;
+    font-family: "Cambria";
+}
+.boton{
+    text-align:center;
+    color:#000;
+    border: 1px solid transparent;
+    border-radius:4px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.comentario
+{
+    border-bottom:#FFF;
+    background-color:#555;
+    border-radius:20px;
+    width:100%;
+    opacity: .9;
+}
+.comentario label
+{
+    color:#000000;
+}
+.comentario h2
+{
+    text-align:center;
+    color:#000000;
+    font-family: "Cambria";
+}
+.comentario:hover
+{
+    width:100%;
+
+}
+.slider-wrapper
+{
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    width:90%;
+    padding-top:100px;
+}
+.slider-wrapper img
+{
+    width:100%;
+    position:absolute;
+}
+.sep
+{
+    width:100%;
+    padding:40px;
+}
+.DIV_footer label
+{
+    color:#000000;
+    font-family: "Cambria";
+}
+.DIV_info{
+    text-align:center;
+    border-radius:15px;
+    float:left;
+    width:80%;
+    background-color:#555;
+    color:#000000;
+    opacity:.9;
+    margin-top:20px;
+    margin-bottom:50px;
+}
+.DIV_info button{
+
+    text-align:center;
+    color:#000;
+    border: 1px solid transparent;
+    border-radius:4px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+
+

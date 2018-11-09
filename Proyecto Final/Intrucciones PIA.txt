@@ -1,0 +1,13 @@
+---------------------------------proyecto final-----------------------------------
+
+"Sistema web con 3 clases extras"
+VIERNES 9 DE NOVIEMBRE 
+PROYECTO Y REVISIÓN
+
+jsp
+MVC
+loggins
+cookie
+agregar 3 clases(ejemplo maestro, alumno, docentes) 
+osea 3 aplicaciones usando la MISMA BASE DE DATOS Y EL MISMO MVC
+patrones de diseño (singleton, factory)
